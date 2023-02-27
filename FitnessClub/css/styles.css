@@ -150,7 +150,36 @@ footer p a {
     text-decoration: none;
 }
 
-/*
+/* Media Query for Tablet Vieport */
+@media screen and (min-width: 630pc){
+}
+
+/* Table viewport: show tablet desktop class hide mobile class */
+.tablet-desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+/* Tablet Viewport: style rule for header */
+header{
+    position: static;
+    padding-bottom: 2%;
+}
+/* Tablet Viewport: Styles for nav area */
+nav li{
+    border-top: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+
+}
+
+nav li:last-child{
+    border-right: none;
+}
+
 #exercises{
     clear: left;
     border-top: 1px solid #000;
@@ -166,4 +195,3 @@ footer p a {
 #exercises dd{
     padding: 0.5% 1% 2% 0;
 }
-*/
