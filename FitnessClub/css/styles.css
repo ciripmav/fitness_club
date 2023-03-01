@@ -179,6 +179,14 @@ nav li{
 nav li:last-child{
     border-right: none;
 }
+nav li a{
+    padding: 0.1em 0.75em;
+
+}
+/* Tablet viewport: Styles rules for main content area */
+main ul{
+    margin: (0 0 4% 10%);
+}
 
 #exercises{
     clear: left;
@@ -195,3 +203,8 @@ nav li:last-child{
 #exercises dd{
     padding: 0.5% 1% 2% 0;
 }
+
+.tel-num{ 
+    font-size: 1.25em;
+}
+
